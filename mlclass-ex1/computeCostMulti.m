@@ -13,10 +13,21 @@ J = 0;
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
+J =  y - X*theta;
+J = sum(square(J))/2*m;
+
+
 
 
 
 
 % =========================================================================
 
+end
+
+
+
+function x = square(x)
+for i=1:length(x)
+	x(i) = x(i)*x(i);
 end
