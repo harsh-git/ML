@@ -1,0 +1,2 @@
+1. Contour plot seams to give a better idea of the Cost minimization
+2. Often a good practice to normalize input data  X- mean(x) / std(x)
